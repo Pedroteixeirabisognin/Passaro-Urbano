@@ -5,7 +5,7 @@ export class Oferta{
     public titulo: string
     public descricao_oferta: string
     public anunciante: string
-    public valor: number
+    public valor: string
     public destaque: boolean
     public imagens: Array<object>
 }
